@@ -5,6 +5,10 @@
     box-sizing: border-box;
 }
 
+html{
+    font-family: 'Open Sans', sans-serif;
+}
+
 /* CONTAINER */
 .container{
     display: flex;
@@ -13,7 +17,7 @@
 
 /* ASIDE */
 .aside{
-    border: 1px solid black;
+    background-color: black;
     width: 10%;
     height: 100%;
     display: flex;
@@ -21,16 +25,52 @@
     justify-content: space-between;
 }
 
+.aside img{
+    width: 30px;
+}
+
+.fa-house{
+    color: white;
+    font-size: 20px;
+}
+
+.fa-magnifying-glass{
+    color: lightgray;
+    font-size: 20px;
+}
+
+.fa-grip-lines-vertical{
+    color: lightgray;
+    font-size: 20px;
+}
+
+.fa-circle-arrow-down{
+    color: white;
+}
+
+.fa-user{
+    color: white;
+}
+
 .navigation{
-    border: 1px solid black;
+    border: 1px solid white;
     width: 100%;
-    height: 20%;
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
 }
 
 .id{
-    border: 1px solid black;
+    border: 1px solid white;
     width: 100%;
-    height: 20%;
+    height: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    justify-content: space-between;
 }
 
 /* MAIN */
@@ -38,18 +78,35 @@
     border: 1px solid black;
     width: 90%;
     height: 100%;    
+    overflow-y: auto;
 }
 
 .header{
-    border: 1px solid black;
-    width: 100%;
-    height: 10%;
+    background-color: #090B12;
+    width: 90%;
+    height: 10vh;
+    position: fixed;
+    top: 0;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.header a{
+    color: white;
+    text-decoration: none;
+    border: 1px solid white;
+    border-radius: 20px;
+    padding: 8px 35px;
+    text-transform: uppercase;
+    margin-right: 10px;
 }
 
 .home{
     border: 1px solid black;
     width: 100%;
-    height: 90%;
+    height: calc(100% - 10vh);
+    margin-top: 10vh;
 }
 
 .category{
@@ -71,7 +128,6 @@
     display: flex;
     flex-wrap: wrap;
     align-content: flex-start;
-    overflow-y: auto;
 }
 
 .card{
