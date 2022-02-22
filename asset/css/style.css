@@ -71,6 +71,7 @@
     display: flex;
     flex-wrap: wrap;
     align-content: flex-start;
+    overflow-y: auto;
 }
 
 .card{
@@ -87,4 +88,23 @@
 footer{
     height: 10vh;
     border: 1px solid black;
+    display: flex;
+}
+
+.song{
+    border: 1px solid black;
+    height: 100%;
+    width: 25%;
+}
+
+.play{
+    border: 1px solid black;
+    height: 100%;
+    width: 50%;
+}
+
+.audio{
+    border: 1px solid black;
+    height: 100%;
+    width: 25%;
 }
