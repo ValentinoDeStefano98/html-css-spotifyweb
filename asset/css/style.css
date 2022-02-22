@@ -95,6 +95,7 @@ footer{
     border: 1px solid black;
     height: 100%;
     width: 25%;
+    display: flex;
 }
 
 .play{
@@ -107,4 +108,18 @@ footer{
     border: 1px solid black;
     height: 100%;
     width: 25%;
+}
+
+.cover,
+.name,
+.like{
+    border: 1px solid black;
+    height: 100%;
+    flex-basis: 33%;
+}
+
+.button,
+.time{
+    border: 1px solid black;
+    height: 50%;
 }
