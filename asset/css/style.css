@@ -53,7 +53,7 @@ html{
 }
 
 .navigation{
-    border: 1px solid white;
+    /* border: 1px solid white; */
     width: 100%;
     height: 150px;
     display: flex;
@@ -63,7 +63,7 @@ html{
 }
 
 .id{
-    border: 1px solid white;
+    /* border: 1px solid white; */
     width: 100%;
     height: 50px;
     display: flex;
@@ -77,14 +77,14 @@ html{
 .main{
     border: 1px solid black;
     width: 90%;
-    height: 100%;    
     overflow-y: auto;
+    background-color: #141922;
 }
 
 .header{
     background-color: #090B12;
     width: 90%;
-    height: 10vh;
+    height: 80px;
     position: fixed;
     top: 0;
     display: flex;
@@ -104,27 +104,62 @@ html{
 
 .home{
     border: 1px solid black;
-    width: 100%;
-    height: calc(100% - 10vh);
-    margin-top: 10vh;
+    width: 90%;
+    margin: 0 auto;
+    /* height: calc(100% - 75px); */
+    margin-top: 75px;  
 }
 
 .category{
-    border: 1px solid black;
+    padding-top: 20px;
     width: 100%;
-    height: 10%;
+    /* height: 10%; */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
-.title{
-    border: 1px solid black;
-    width: 100%;
-    height: 5%;
+.select{
+    flex-basis: 25%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 30px;
+}
+
+.active{
+    display: flex;
+    flex-direction: column;
+}
+
+.select span{
+    display: block;
+    text-transform: uppercase;
+    font-size: 0.8em;
+    color: #5B5F65;
+    font-weight: bold;
+}
+
+.bottom{
+    width: 30%;
+    height: 1px;
+    margin: 0 auto;
+    border: 1px solid #7DB931;
+    background-color: #7DB931;
+}
+
+.title span{
+    display: block;
+    padding: 20px 0;
+    color: white;
+    font-weight: bold;
+    font-size: 1.7em;
 }
 
 .recent-container{
     border: 1px solid black;
     width: 100%;
-    height: 85%;
+    /* height: 85%; */
     display: flex;
     flex-wrap: wrap;
     align-content: flex-start;
@@ -133,12 +168,32 @@ html{
 .card{
     border: 1px solid black;
     width: 50%;
-    /* height: 40px; */
+    /* height: 100px; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .card img{
     max-width: 100%;
     height: auto;
+}
+
+.song-name{
+    padding-bottom: 5px;
+    color: white;
+    font-size: 1.2em;
+}
+
+.info{
+    padding: 15px 0;
+}
+
+.artist{
+    display: flex;
+    justify-content: center;
+    color: #65696D;
+    font-size: 0.9em;
 }
 /* FOOTER */
 footer{
