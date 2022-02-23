@@ -59,14 +59,14 @@
                 </div>
 
                 <div class="title">
-                    <span>Recently played</span>
+                    <span class="edit-title">Recently played</span>
                 </div>  
 
                 <div class="recent-container">
                     <div class="card">
                         <img src="./asset/img/metal_lifting.jpg" alt="">
                         <div class="info">
-                           <div class="song-name">
+                           <div class="info-title">
                                 <span>Heavy Metal</span>
                             </div>
                             <div class="artist">
@@ -77,7 +77,7 @@
                     <div class="card">
                         <img src="./asset/img/stranger.jpeg" alt="">
                         <div class="info">
-                            <div class="song-name">
+                            <div class="info-title">
                                 <span>Stranger Things, Vol.1 (a Netflix Original Series Soundtrack)</span>
                             </div>
                             <div class="artist">
@@ -88,8 +88,8 @@
                     <div class="card">
                         <img src="./asset/img/aquietplace.jpeg" alt="">
                         <div class="info">
-                            <div class="song-name">
-                                <span>A quiet place <span>
+                            <div class="info-title">
+                                <span>A quiet place </span>
                             </div>
                             <div class="artist">
                                 <span>Subtitle</span>
@@ -99,8 +99,8 @@
                     <div class="card">
                         <img src="./asset/img/split.jpeg" alt="">
                         <div class="info">
-                            <div class="song-name">
-                                <span>Split <span>
+                            <div class="info-title">
+                                <span>Split </span>
                             </div>
                             <div class="artist">
                                 <span>Subtitle</span>
@@ -110,7 +110,7 @@
                     <div class="card">
                         <img src="./asset/img/cure.jpeg" alt="">
                         <div class="info">
-                            <div class="song-name">
+                            <div class="info-title">
                                 <span>A cure for wellness <span>
                             </div>
                             <div class="artist">
@@ -121,8 +121,8 @@
                     <div class="card">
                         <img src="./asset/img/sinister.jpeg" alt="">
                         <div class="info">
-                            <div class="song-name">
-                                <span>Sinister <span>
+                            <div class="info-title">
+                                <span>Sinister </span>
                             </div>
                             <div class="artist">
                                 <span>Subtitle</span>
@@ -130,33 +130,114 @@
                         </div>
                     </div>
                 </div>
-                
+
+                <div class="personal-playlist">
+                    <span class="edit-title last-title">Creato per John Doe</span>
+                    <span class="listen">Più ascolti, più accurati saranno i tuoi suggerimenti.</span>
+                    <div class="personal">
+                        <div class="card">
+                            <img src="./asset/img/radar.jpeg" alt="">
+                            <div class="info">
+                                <div class="info-title">
+                                    <span>Release radar </span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <img src="./asset/img/mixdaily.jpeg" alt="">
+                            <div class="info">
+                                <div class="info-title">
+                                    <span>Daily mix 1 </span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>           
+                </div>
+
+                <div class="best-artists">
+                    <span class="edit-title last-title">Artisti più popolari</span>
+                    <span class="listen">Più ascolti, più accurati saranno i tuoi suggerimenti.</span>
+                    <div class="personal">
+                        <div class="card">
+                            <img class="circle" src="./asset/img/youg.jpeg" alt="">
+                            <div class="info">
+                                <div class="info-title">
+                                    <span>Lana del Rey</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <img class="circle" src="./asset/img/einaudi.jpeg" alt="">
+                            <div class="info">
+                                <div class="info-title">
+                                    <span>Ludovico Einaudi</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>  
             </div>
         </div>       
     </section>
 
     <footer>
+
         <div class="song">
             <div class="cover">
-
+                <img src="./asset/img/sinister.jpeg" alt="">
             </div>
             <div class="name">
-
+                <span>Sinister</span>
+                <span class="playback-info">Brano</span>
+                <span class="playback-info">Nome</span>
             </div>
             <div class="like">
-
+                <i class="fa-regular fa-heart"></i>
             </div>
         </div>
-        <div class="play">
-            <div class="button">
 
+        <div class="play">
+            <div class="buttons">
+                <div class="button">
+                    <i class="fa-solid fa-shuffle"></i>
+                </div>
+                <div class="button">
+                    <i class="fa-solid fa-backward-step"></i>
+                </div>
+                <div class="button principal">
+                    <i class="fa-regular fa-circle-play"></i>
+                </div>
+                <div class="button">
+                    <i class="fa-solid fa-forward-step"></i>
+                </div>
+                <div class="button">
+                    <i class="fa-solid fa-rotate-right"></i>
+                </div>
             </div>
             <div class="time">
-
+                <div class="start">
+                    <span class="minute">0:25</span>
+                </div>
+                <div class="control">
+                    <!-- <div></div> -->
+                    <input type="range" min="0" max="100" value="40">
+                </div>
+                <div class="end">
+                    <span class="minute">4:35</span>
+                </div>
             </div>
         </div>
         <div class="audio">
-
+            <div class="list">
+                <i class="fa-solid fa-list-ul"></i>
+            </div>
+            <div class="connect">
+                <i class="fa-solid fa-tv"></i>
+            </div>
+            <div class="speaker">
+                <i class="fa-solid fa-volume-high"></i>
+            </div>
+            <!-- <div class="volume-slider"></div> -->
         </div>
     </footer>
 
