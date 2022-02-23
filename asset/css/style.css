@@ -13,6 +13,12 @@ body{
     background-color: #141922;
 }
 
+/* CONTAINER */
+.container{
+    display: flex;
+    height: 90vh;
+}
+
 /* GENERAL */
 .edit-title{
     color: white;
@@ -37,10 +43,20 @@ body{
     border-radius: 50%;
 }
 
-/* CONTAINER */
-.container{
-    display: flex;
-    height: 90vh;
+
+
+/* DISPLAY NONE */
+.big-logo{ 
+    display: none;
+
+}
+
+.text-icon{
+    display: none;
+}
+
+.aside-playlist{
+    display: none;
 }
 
 /* ASIDE */
@@ -53,23 +69,77 @@ body{
     justify-content: space-between;
 }
 
-.aside img{
+/* TOP SECTION ASIDE */
+.navigation{
+    width: 100%;
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    border: 1px solid white;
+}
+
+.small-img{
     width: 30px;
 }
 
-.fa-house{
+.big-img{
+    width: 80%;
+}
+
+.library,
+.search,
+.home-button{
+    width: 25px;
+    height: auto;
+}
+
+.button-container{
+    display: flex;
+    align-items: center;
+}
+
+.button-container span{
+    color: #65696D;
+    font-size: 0.8em;
+}
+
+.button-container :first-child{
+    padding-right: 3px;
+}
+
+#page-active{
     color: white;
-    font-size: 20px;
 }
 
-.fa-magnifying-glass{
-    color: lightgray;
-    font-size: 20px;
+.aside-playlist{
+    border: 1px solid white;
 }
 
-.fa-grip-lines-vertical{
-    color: lightgray;
-    font-size: 20px;
+.add-playlist{
+    background-color: grey;
+    width: 30px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.aside-playlist h2{
+    color: white;
+}
+
+/* BOTTOM SECTION ASIDE */
+.id{
+    width: 100%;
+    height: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    justify-content: space-around;
+    border: 1px solid white;
 }
 
 .fa-circle-arrow-down{
@@ -80,26 +150,9 @@ body{
     color: white;
 }
 
-.navigation{
-    /* border: 1px solid white; */
-    width: 100%;
-    height: 150px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-around;
-}
 
-.id{
-    /* border: 1px solid white; */
-    width: 100%;
-    height: 50px;
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-end;
-    align-items: center;
-    justify-content: space-around;
-}
+
+
 
 /* MAIN */
 .main{

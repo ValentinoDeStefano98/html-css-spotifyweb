@@ -9,6 +9,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;@400&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
     <link rel="stylesheet" href="./asset/css/style.css">
+    <link rel="stylesheet" href="./asset/css/media.css">
     <title>Spotify</title>
 </head>
 <body>
@@ -16,12 +17,47 @@
     <section class="container">
 
         <div class="aside">
+
             <div class="navigation">
-                <a href=""><img src="./asset/img/logo-small.svg" alt="logo spotify"></a> 
-                <a href=""><i class="fa-solid fa-house"></i></a>
-                <a href=""><i class="fa-solid fa-magnifying-glass"></i></a> 
-                <a href=""> <i class="fa-solid fa-grip-lines-vertical"></i></a>
-            </div>
+                <div>
+                    <div class="small-logo">
+                        <a href=""><img class="small-img" src="./asset/img/logo-small.svg" alt="logo spotify"></a>
+                    </div>
+
+                    <div class="big-logo">
+                        <a href="#"><img class="big-img" src="./asset/img/logo.svg" alt=""></a>
+                    </div>
+                
+                    <div class="button-container">
+                        <a href=""> <img class="home-button" src="./asset/img/home.svg" alt=""></a>
+                        <span class="text-icon page" id="page-active">Home</span> 
+                    </div>
+                
+                    <div class="button-container">
+                        <a href=""><img class="search" src="./asset/img/search.svg" alt=""> </a>
+                        <span class="text-icon">Cerca</span> 
+                    </div>
+                
+                    <div class="button-container">
+                    <a href=""><img class="library" src="./asset/img/libreria.svg" alt=""></a>
+                    <span class="text-icon">La tua libreria</span> 
+                    </div>               
+                </div> 
+
+                <div>
+                    <div class="aside-playlist">
+                        <h2>Playlist</h2>
+                        <div class="add-playlist">
+                            <i class="fa-solid fa-plus"></i> 
+                        </div>
+                
+                    </div> 
+                </div>
+            </div>           
+                
+
+            
+
             <div class="id">
                 <a href=""><i class="fa-solid fa-circle-arrow-down"></i></a>
                 <a href=""><i class="fa-regular fa-user"></i></a>

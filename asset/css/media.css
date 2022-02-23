@@ -1,0 +1,38 @@
+@media screen and (min-width: 639px){
+
+    .aside{
+        width: 30%;
+    }
+
+    .header a{
+        margin-right: 135px;
+    }
+
+    .small-logo{
+        display: none;
+    }
+
+    .big-logo{
+        display: contents;
+    }
+
+    .big-logo a{
+        margin-bottom: 10%;
+    }
+
+    .text-icon{
+        display: contents;
+    }
+
+    .aside-playlist{
+        display: contents;
+        border: 1px solid white;
+        width: 95%;
+    }
+
+    .navigation{
+        width: 95%;
+        padding-left: 5%;
+        align-items: flex-start;
+    }
+}
