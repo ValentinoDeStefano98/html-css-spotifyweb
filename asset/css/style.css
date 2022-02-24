@@ -36,9 +36,9 @@ html{
 /* GENERAL */
 .edit-title{
     color: white;
-    font-size: 1.7em;
+    font-size: 1.5em;
     display: block;
-    margin-bottom: 20px;
+    margin-bottom: 25px;
     font-weight: bold;
 }
 
@@ -119,6 +119,7 @@ a{
 
 .small-img{
     width: 30px;
+    padding: 5px 0;
 }
 
 .big-img{
@@ -130,6 +131,7 @@ a{
 .search,
 .home-button{
     width: 25px;
+    padding-bottom: 3px;
     height: auto;
 }
 
@@ -323,6 +325,7 @@ a{
     display: flex;
     flex-direction: column;
     align-items: center;
+    position: relative;
 }
 
 .card img{
@@ -330,10 +333,36 @@ a{
     height: auto;
 }
 
+.invisible-play{
+    position: absolute;
+    top: 35%;
+    bottom: 50%;
+    left: 50%;
+    right: 50%;
+    transform: translate(-50%, -50%);
+    display: inline-block;
+    text-align: center;
+    visibility: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid white;
+    width: 0%;
+    height: 0%;
+}
+
+.invisible-play i{
+    font-size: 3em;
+}
+
+.card:hover .invisible-play{
+    visibility: visible;
+}
+
 .info-title{
     padding-bottom: 5px;
     color: white;
-    font-size: 1.2em;
+    font-size: 1.1em;
 }
 
 .info{

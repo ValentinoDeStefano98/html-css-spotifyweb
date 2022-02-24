@@ -192,6 +192,7 @@
 
     .audio{
         flex-basis: 20%;
+        padding-right: 10px;
     }
 
     .control{
@@ -342,6 +343,7 @@
 
     .audio{
         flex-basis: 20%;
+        padding-right: 10px;
     }
 
     .control{
