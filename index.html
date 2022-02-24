@@ -14,64 +14,103 @@
 </head>
 <body>
     
+    <!-- MAIN CONTAINER (NOT FOOTER) -->
     <section class="container">
 
+        <!-- ASIDE BAR -->
         <div class="aside">
-
+            <!-- TOP SECTION OF ASIDE BAR -->
             <div class="navigation">
                 <div>
                     <div class="small-logo">
                         <a href=""><img class="small-img" src="./asset/img/logo-small.svg" alt="logo spotify"></a>
                     </div>
-
                     <div class="big-logo">
                         <a href="#"><img class="big-img" src="./asset/img/logo.svg" alt=""></a>
                     </div>
-                
                     <div class="button-container">
                         <a href=""> <img class="home-button" src="./asset/img/home.svg" alt=""></a>
                         <span class="text-icon page" id="page-active">Home</span> 
                     </div>
-                
                     <div class="button-container">
                         <a href=""><img class="search" src="./asset/img/search.svg" alt=""> </a>
                         <span class="text-icon">Cerca</span> 
                     </div>
-                
                     <div class="button-container">
                     <a href=""><img class="library" src="./asset/img/libreria.svg" alt=""></a>
                     <span class="text-icon">La tua libreria</span> 
                     </div>               
                 </div> 
-
-                <div>
+                <!-- PLAYLIST SECTION (NOT FOR SMARTPHONE) -->
+                <div class="middle-playlist">
                     <div class="aside-playlist">
                         <h2>Playlist</h2>
-                        <div class="add-playlist">
-                            <i class="fa-solid fa-plus"></i> 
+                        <div class="add">
+                            <div class="add-playlist">
+                                <i class="fa-solid fa-plus"></i>    
+                            </div>
+                            <div>
+                                <span>Crea Playlist</span>
+                            </div>
                         </div>
-                
+                        <div class="playlist-list">
+                            <ul>
+                                <li>
+                                    <a href="">Nome Playlist</a>    
+                                </li>
+                                <li>
+                                    <a href="">Nome Playlist</a>
+                                </li>
+                                <li>
+                                    <a href="">Nome Playlist</a>
+                                </li>
+                                <li>
+                                    <a href="">Nome Playlist</a>
+                                </li>
+                                <li>
+                                    <a href="">Nome Playlist</a>
+                                </li>
+                                <li>
+                                    <a href="">Nome Playlist</a>
+                                </li>
+                                <li>
+                                    <a href="">Nome Playlist</a>
+                                </li>
+                                <li>
+                                    <a href="">Nome Playlist</a>
+                                </li>
+                                <li>
+                                    <a href="">Nome Playlist</a>
+                                </li>
+                            </ul>
+                        </div>  
                     </div> 
                 </div>
             </div>           
-                
-
-            
-
+            <!-- BOTTOM SECTION OF ASIDE BAR -->
             <div class="id">
-                <a href=""><i class="fa-solid fa-circle-arrow-down"></i></a>
-                <a href=""><i class="fa-regular fa-user"></i></a>
+                <div>
+                    <a href=""><i class="fa-solid fa-circle-arrow-down"></i></a>
+                    <span class="install">Installa app</span>
+                </div>
+                <div class="hr">
+                    <hr>
+                </div>
+                <div>
+                    <a href=""><i class="fa-regular fa-user"></i></a>
+                    <span class="user">John Doe</span>
+                </div>              
             </div>
         </div>
-
+        <!-- MAIN SECTION -->
         <div class="main">
-
+            <!-- HEADER SECTION (UPGRADE BUTTON) -->
             <div class="header">
                 <a href="">Effettua l'upgrade</a>
             </div>
-
+            <!-- CENTRAL SECTION -->
             <div class="home">
-
+                <!-- SONGS CATEGORIES -->
                 <div class="category">
                     <div class="select active">
                         <span>In evidenza</span>
@@ -93,11 +132,11 @@
                         <span>Scopri</span>
                     </div>                                      
                 </div>
-
+                <!-- RECENTLY SONGS SECTIONS -->
                 <div class="title">
                     <span class="edit-title">Recently played</span>
                 </div>  
-
+                <!-- SONGS CONTAINER -->
                 <div class="recent-container">
                     <div class="card">
                         <img src="./asset/img/metal_lifting.jpg" alt="">
@@ -166,7 +205,7 @@
                         </div>
                     </div>
                 </div>
-
+                <!-- PLAYLIST SECTION -->
                 <div class="personal-playlist">
                     <span class="edit-title last-title">Creato per John Doe</span>
                     <span class="listen">Più ascolti, più accurati saranno i tuoi suggerimenti.</span>
@@ -189,7 +228,7 @@
                         </div>
                     </div>           
                 </div>
-
+                <!-- POPULAR ARTISTS SECTION -->
                 <div class="best-artists">
                     <span class="edit-title last-title">Artisti più popolari</span>
                     <span class="listen">Più ascolti, più accurati saranno i tuoi suggerimenti.</span>
@@ -215,9 +254,9 @@
             </div>
         </div>       
     </section>
-
+    <!-- FOOTER SECTION -->
     <footer>
-
+        <!-- SONG INFO SECTION -->
         <div class="song">
             <div class="cover">
                 <img src="./asset/img/sinister.jpeg" alt="">
@@ -231,7 +270,7 @@
                 <i class="fa-regular fa-heart"></i>
             </div>
         </div>
-
+        <!-- PLAY SECTION -->
         <div class="play">
             <div class="buttons">
                 <div class="button">
@@ -263,6 +302,7 @@
                 </div>
             </div>
         </div>
+        <!-- AUDIO SECTION -->
         <div class="audio">
             <div class="list">
                 <i class="fa-solid fa-list-ul"></i>

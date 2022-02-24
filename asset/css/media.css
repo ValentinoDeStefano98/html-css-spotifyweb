@@ -16,6 +16,21 @@
         display: contents;
     }
 
+    .id .install,
+    .id .user{
+        display: contents;
+    }
+
+    .id{
+        width: 90%;
+        margin: 0 auto;
+        align-items: flex-start;
+    }
+
+    .id .hr{
+        display: block;
+    }
+
     .big-logo a{
         margin-bottom: 10%;
     }
