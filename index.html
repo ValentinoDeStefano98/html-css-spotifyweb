@@ -24,23 +24,23 @@
                         <a href="#"><img class="small-img" src="./asset/img/logo-small.svg" alt="logo spotify"></a>
                     </div>
                     <div class="big-logo">
-                        <a href="#"><img class="big-img" src="./asset/img/logo.svg" alt=""></a>
+                        <a href="#"><img class="big-img padding-tablet" src="./asset/img/logo.svg" alt=""></a>
                     </div>
                     <div class="button-container">
-                        <a href="#"> <img class="home-button" src="./asset/img/home.svg" alt=""></a>
+                        <a class="active-button padding-tablet" href="#"> <img class="home-button" src="./asset/img/home.svg" alt=""></a>
                         <span class="text-icon page" id="page-active">Home</span> 
                     </div>
                     <div class="button-container">
-                        <a href="#"><img class="search" src="./asset/img/search.svg" alt=""> </a>
+                        <a class="padding-tablet" href="#"><img class="search" src="./asset/img/search.svg" alt=""> </a>
                         <span class="text-icon">Cerca</span> 
                     </div>
                     <div class="button-container">
-                        <a href="#"><img class="library" src="./asset/img/libreria.svg" alt=""></a>
+                        <a class="padding-tablet" href="#"><img class="library" src="./asset/img/libreria.svg" alt=""></a>
                         <span class="text-icon">La tua libreria</span> 
                     </div>               
                 </div> 
                 <!-- PLAYLIST SECTION (NOT FOR SMARTPHONE) -->
-                <div class="middle-playlist">
+                <div class="middle-playlist padding-tablet">
                     <div class="aside-playlist">
                         <h2>Playlist</h2>
                         <div class="add">
@@ -266,6 +266,7 @@
             </div>
             <div class="like">
                 <i class="fa-regular fa-heart cursor"></i>
+                <i class="fa-solid fa-folder folder"></i>
             </div>
         </div>
         <!-- PLAY SECTION -->
@@ -309,6 +310,9 @@
             </div>
             <div class="speaker">
                 <i class="fa-solid fa-volume-high cursor"></i>
+            </div>
+            <div class="control-volume">
+                <input class="cursor" type="range" min="0" max="100" value="40">
             </div>
         </div>
     </footer>

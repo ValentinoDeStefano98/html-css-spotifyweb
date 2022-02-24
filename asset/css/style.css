@@ -75,6 +75,18 @@ a{
     display: none;
 }
 
+.folder{
+    display: none;
+}
+
+.control-volume{
+    display: none;
+}
+
+.control-volume input{
+    display: none;
+}
+
 /* ASIDE */
 .aside{
     background-color: black;
@@ -87,8 +99,7 @@ a{
 
 /* TOP SECTION ASIDE */
 .navigation{
-    width: 80%;
-    margin: 0 auto;
+    width: 100%;
     height: 250px;
     display: flex;
     flex-direction: column;
@@ -150,6 +161,10 @@ a{
 
 .aside-playlist h2{
     color: white;
+}
+
+.add-playlist a{
+    color: black;
 }
 
 .aside-playlist span{
@@ -292,7 +307,7 @@ a{
 }
 
 .card{
-    width: 49%;
+    flex-basis: calc(100% / 2 - 5%);
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -328,8 +343,9 @@ footer{
 
 .song{
     height: 100%;
-    width: 25%;
+    flex-basis: 25%;
     display: flex;
+    justify-content: space-between;
 }
 
 .cover{
@@ -346,8 +362,7 @@ footer{
 
 .like{
     display: flex;
-    flex-direction: column;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
 }
 
@@ -359,7 +374,8 @@ footer{
 .fa-rotate-right,
 .fa-list-ul,
 .fa-tv,
-.fa-volume-high{
+.fa-volume-high,
+.fa-folder{
     color: white;
 }
 
@@ -385,12 +401,12 @@ footer{
 
 .play{
     height: 100%;
-    width: 50%;
+    flex-basis: 50%;
 }
 
 .audio{
     height: 100%;
-    width: 25%;
+    flex-basis: 25%;
 }
 
 .cover,
@@ -417,9 +433,13 @@ footer{
     display: flex;
 }
 
+.time{
+    justify-content: space-around;
+}
+
 .start,
 .end{
-    flex-basis: 20% ;
+    flex-basis: 20%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -433,7 +453,7 @@ footer{
 }
 
 .control input{
-    flex-basis: 95%;
+    flex-basis: 90%;
 }
 
 .minute{
@@ -442,7 +462,7 @@ footer{
 }
 
 .start,
-.end,{
+.end{
     display: flex;
     justify-content: center;
     align-items: center;
