@@ -144,6 +144,14 @@
         border-left: 3px solid lightgreen;
     }
 
+     .no-active-button{
+        border-left: 3px solid black;
+    }
+
+    .button-container{
+        justify-content: flex-start;
+    }
+
     /* HEADER */
     .header a{
         margin-right: 20%;
@@ -281,6 +289,14 @@
 
     .button-container .active-button{
         border-left: 3px solid lightgreen;
+    }
+
+     .no-active-button{
+        border-left: 3px solid black;
+    }
+
+    .button-container{
+        justify-content: flex-start;
     }
 
     /* HEADER */
