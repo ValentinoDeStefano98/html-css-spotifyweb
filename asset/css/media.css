@@ -1,17 +1,11 @@
 @media screen and (min-width: 639px){
 
-    .aside{
-        width: 30%;
-    }
-
-    .header a{
-        margin-right: 135px;
-    }
-
+    /* ELEMENTS TO HIDE */
     .small-logo{
-        display: none;
+            display: none;
     }
 
+    /* ELEMENTS TO SHOW */
     .big-logo{
         display: contents;
     }
@@ -21,22 +15,29 @@
         display: contents;
     }
 
-    .id{
-        width: 90%;
-        margin: 0 auto;
-        align-items: flex-start;
+    .text-icon{
+        display: contents;
     }
 
     .id .hr{
         display: block;
     }
 
-    .big-logo a{
-        margin-bottom: 10%;
+    /* ASIDE */
+    .aside{
+        width: 30%;
     }
 
-    .text-icon{
-        display: contents;
+    .id{
+        width: 90%;
+        margin: 0 auto;
+        align-items: flex-start;
+    }
+
+    
+
+    .big-logo a{
+        margin-bottom: 10%;
     }
 
     .aside-playlist{
@@ -50,4 +51,19 @@
         padding-left: 5%;
         align-items: flex-start;
     }
+
+    /* HEADER */
+    .header a{
+        margin-right: 135px;
+    }
+
+    
+
+    
+
+   
+
+    
+
+    
 }

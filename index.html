@@ -12,33 +12,31 @@
     <link rel="stylesheet" href="./asset/css/media.css">
     <title>Spotify</title>
 </head>
-<body>
-    
+<body>  
     <!-- MAIN CONTAINER (NOT FOOTER) -->
     <section class="container">
-
         <!-- ASIDE BAR -->
         <div class="aside">
             <!-- TOP SECTION OF ASIDE BAR -->
             <div class="navigation">
                 <div>
                     <div class="small-logo">
-                        <a href=""><img class="small-img" src="./asset/img/logo-small.svg" alt="logo spotify"></a>
+                        <a href="#"><img class="small-img" src="./asset/img/logo-small.svg" alt="logo spotify"></a>
                     </div>
                     <div class="big-logo">
                         <a href="#"><img class="big-img" src="./asset/img/logo.svg" alt=""></a>
                     </div>
                     <div class="button-container">
-                        <a href=""> <img class="home-button" src="./asset/img/home.svg" alt=""></a>
+                        <a href="#"> <img class="home-button" src="./asset/img/home.svg" alt=""></a>
                         <span class="text-icon page" id="page-active">Home</span> 
                     </div>
                     <div class="button-container">
-                        <a href=""><img class="search" src="./asset/img/search.svg" alt=""> </a>
+                        <a href="#"><img class="search" src="./asset/img/search.svg" alt=""> </a>
                         <span class="text-icon">Cerca</span> 
                     </div>
                     <div class="button-container">
-                    <a href=""><img class="library" src="./asset/img/libreria.svg" alt=""></a>
-                    <span class="text-icon">La tua libreria</span> 
+                        <a href="#"><img class="library" src="./asset/img/libreria.svg" alt=""></a>
+                        <span class="text-icon">La tua libreria</span> 
                     </div>               
                 </div> 
                 <!-- PLAYLIST SECTION (NOT FOR SMARTPHONE) -->
@@ -47,7 +45,7 @@
                         <h2>Playlist</h2>
                         <div class="add">
                             <div class="add-playlist">
-                                <i class="fa-solid fa-plus"></i>    
+                                <a href="#"><i class="fa-solid fa-plus"></i> </a>     
                             </div>
                             <div>
                                 <span>Crea Playlist</span>
@@ -56,31 +54,31 @@
                         <div class="playlist-list">
                             <ul>
                                 <li>
-                                    <a href="">Nome Playlist</a>    
+                                    <a href="#">Nome Playlist</a>    
                                 </li>
                                 <li>
-                                    <a href="">Nome Playlist</a>
+                                    <a href="#">Nome Playlist</a>
                                 </li>
                                 <li>
-                                    <a href="">Nome Playlist</a>
+                                    <a href="#">Nome Playlist</a>
                                 </li>
                                 <li>
-                                    <a href="">Nome Playlist</a>
+                                    <a href="#">Nome Playlist</a>
                                 </li>
                                 <li>
-                                    <a href="">Nome Playlist</a>
+                                    <a href="#">Nome Playlist</a>
                                 </li>
                                 <li>
-                                    <a href="">Nome Playlist</a>
+                                    <a href="#">Nome Playlist</a>
                                 </li>
                                 <li>
-                                    <a href="">Nome Playlist</a>
+                                    <a href="#">Nome Playlist</a>
                                 </li>
                                 <li>
-                                    <a href="">Nome Playlist</a>
+                                    <a href="#">Nome Playlist</a>
                                 </li>
                                 <li>
-                                    <a href="">Nome Playlist</a>
+                                    <a href="#">Nome Playlist</a>
                                 </li>
                             </ul>
                         </div>  
@@ -90,15 +88,15 @@
             <!-- BOTTOM SECTION OF ASIDE BAR -->
             <div class="id">
                 <div>
-                    <a href=""><i class="fa-solid fa-circle-arrow-down"></i></a>
-                    <span class="install">Installa app</span>
+                    <a href="#"><i class="fa-solid fa-circle-arrow-down"></i></a>
+                    <a href="#"><span class="install">Installa app</span></a>   
                 </div>
                 <div class="hr">
                     <hr>
                 </div>
                 <div>
-                    <a href=""><i class="fa-regular fa-user"></i></a>
-                    <span class="user">John Doe</span>
+                    <a href="#"><i class="fa-regular fa-user"></i></a>
+                    <a href="#"><span class="user">John Doe</span></a> 
                 </div>              
             </div>
         </div>
@@ -113,23 +111,23 @@
                 <!-- SONGS CATEGORIES -->
                 <div class="category">
                     <div class="select active">
-                        <span>In evidenza</span>
+                        <a href="#"><span>In evidenza</span></a>
                         <div class="bottom"></div>
                     </div>
                     <div class="select">
-                        <span>Podcast</span>
+                        <a href="#"><span>Podcast</span></a>  
                     </div>
                     <div class="select">
-                        <span>Classifiche</span>
+                        <a href="#"><span>Classifiche</span></a>   
                     </div>
                     <div class="select">
-                        <span>Generi e mood</span>
+                        <a href="#"><span>Generi e mood</span></a>  
                     </div>
                     <div class="select">
-                        <span>Nuove uscite</span>
+                        <a href="#"><span>Nuove uscite</span></a>   
                     </div>
                     <div class="select">
-                        <span>Scopri</span>
+                        <a href=""><span>Scopri</span></a>   
                     </div>                                      
                 </div>
                 <!-- RECENTLY SONGS SECTIONS -->
@@ -138,7 +136,7 @@
                 </div>  
                 <!-- SONGS CONTAINER -->
                 <div class="recent-container">
-                    <div class="card">
+                    <div class="card cursor">
                         <img src="./asset/img/metal_lifting.jpg" alt="">
                         <div class="info">
                            <div class="info-title">
@@ -149,7 +147,7 @@
                              </div> 
                         </div>                      
                     </div>
-                    <div class="card">
+                    <div class="card cursor">
                         <img src="./asset/img/stranger.jpeg" alt="">
                         <div class="info">
                             <div class="info-title">
@@ -160,7 +158,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="card">
+                    <div class="card cursor">
                         <img src="./asset/img/aquietplace.jpeg" alt="">
                         <div class="info">
                             <div class="info-title">
@@ -171,7 +169,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="card">
+                    <div class="card cursor">
                         <img src="./asset/img/split.jpeg" alt="">
                         <div class="info">
                             <div class="info-title">
@@ -182,7 +180,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="card">
+                    <div class="card cursor">
                         <img src="./asset/img/cure.jpeg" alt="">
                         <div class="info">
                             <div class="info-title">
@@ -193,7 +191,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="card">
+                    <div class="card cursor">
                         <img src="./asset/img/sinister.jpeg" alt="">
                         <div class="info">
                             <div class="info-title">
@@ -210,19 +208,19 @@
                     <span class="edit-title last-title">Creato per John Doe</span>
                     <span class="listen">Più ascolti, più accurati saranno i tuoi suggerimenti.</span>
                     <div class="personal">
-                        <div class="card">
+                        <div class="card cursor">
                             <img src="./asset/img/radar.jpeg" alt="">
                             <div class="info">
                                 <div class="info-title">
-                                    <span>Release radar </span>
+                                    <span>Release radar</span>
                                 </div>
                             </div>
                         </div>
-                        <div class="card">
+                        <div class="card cursor">
                             <img src="./asset/img/mixdaily.jpeg" alt="">
                             <div class="info">
                                 <div class="info-title">
-                                    <span>Daily mix 1 </span>
+                                    <span>Daily mix 1</span>
                                 </div>
                             </div>
                         </div>
@@ -233,7 +231,7 @@
                     <span class="edit-title last-title">Artisti più popolari</span>
                     <span class="listen">Più ascolti, più accurati saranno i tuoi suggerimenti.</span>
                     <div class="personal">
-                        <div class="card">
+                        <div class="card cursor">
                             <img class="circle" src="./asset/img/youg.jpeg" alt="">
                             <div class="info">
                                 <div class="info-title">
@@ -241,7 +239,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="card">
+                        <div class="card cursor">
                             <img class="circle" src="./asset/img/einaudi.jpeg" alt="">
                             <div class="info">
                                 <div class="info-title">
@@ -267,26 +265,26 @@
                 <span class="playback-info">Nome</span>
             </div>
             <div class="like">
-                <i class="fa-regular fa-heart"></i>
+                <i class="fa-regular fa-heart cursor"></i>
             </div>
         </div>
         <!-- PLAY SECTION -->
         <div class="play">
             <div class="buttons">
                 <div class="button">
-                    <i class="fa-solid fa-shuffle"></i>
+                    <i class="fa-solid fa-shuffle cursor"></i>
                 </div>
                 <div class="button">
-                    <i class="fa-solid fa-backward-step"></i>
+                    <i class="fa-solid fa-backward-step cursor"></i>
                 </div>
                 <div class="button principal">
-                    <i class="fa-regular fa-circle-play"></i>
+                    <i class="fa-regular fa-circle-play cursor"></i>
                 </div>
                 <div class="button">
-                    <i class="fa-solid fa-forward-step"></i>
+                    <i class="fa-solid fa-forward-step cursor"></i>
                 </div>
                 <div class="button">
-                    <i class="fa-solid fa-rotate-right"></i>
+                    <i class="fa-solid fa-rotate-right cursor"></i>
                 </div>
             </div>
             <div class="time">
@@ -294,8 +292,7 @@
                     <span class="minute">0:25</span>
                 </div>
                 <div class="control">
-                    <!-- <div></div> -->
-                    <input type="range" min="0" max="100" value="40">
+                    <input class="cursor" type="range" min="0" max="100" value="40">
                 </div>
                 <div class="end">
                     <span class="minute">4:35</span>
@@ -305,15 +302,14 @@
         <!-- AUDIO SECTION -->
         <div class="audio">
             <div class="list">
-                <i class="fa-solid fa-list-ul"></i>
+                <i class="fa-solid fa-list-ul cursor"></i>
             </div>
             <div class="connect">
-                <i class="fa-solid fa-tv"></i>
+                <i class="fa-solid fa-tv cursor"></i>
             </div>
             <div class="speaker">
-                <i class="fa-solid fa-volume-high"></i>
+                <i class="fa-solid fa-volume-high cursor"></i>
             </div>
-            <!-- <div class="volume-slider"></div> -->
         </div>
     </footer>
 
